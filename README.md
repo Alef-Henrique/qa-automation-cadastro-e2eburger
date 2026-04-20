@@ -63,6 +63,4 @@ Teste@123
 - WebDriverManager
 - Page Object Model (POM)
 
----
 
-## 📁 Estrutura do projeto
