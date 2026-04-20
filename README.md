@@ -72,8 +72,7 @@ Perfil: Salão
 
 Exemplo de email gerado durante execução:
 
-gestor1713639201345@gmail.com
-cliente1713639204521@gmail.com
+gestor1713639201345@gmail.com & cliente1713639204521@gmail.com
 ---
 
 Observação:
