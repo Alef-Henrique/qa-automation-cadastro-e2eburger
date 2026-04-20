@@ -52,9 +52,11 @@ O sistema exige senha com:
 
 ## 🧾 Massa de teste utilizada
 
+Para evitar erro de usuário já cadastrado, foi utilizada geração dinâmica de email.
+
 ### Cadastro - Gestor
 Nome: Alefe Gestor  
-Email: gestor + timestamp@gmail.com  
+Email: gestor + System.currentTimeMillis() + @gmail.com  
 Senha: Teste@123  
 Perfil: Gestão  
 
@@ -62,10 +64,16 @@ Perfil: Gestão
 
 ### Cadastro - Cliente
 Nome: Cliente Teste  
-Email: cliente + timestamp@gmail.com  
+Email: cliente + System.currentTimeMillis() + @gmail.com  
 Senha: Teste@123  
 Perfil: Salão  
 
+---
+
+Exemplo de email gerado durante execução:
+
+gestor1713639201345@gmail.com
+cliente1713639204521@gmail.com
 ---
 
 Observação:
