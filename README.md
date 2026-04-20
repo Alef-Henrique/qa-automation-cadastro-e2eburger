@@ -46,13 +46,33 @@ O sistema exige senha com:
 
 - pelo menos 1 letra maiúscula
 - pelo menos 1 caractere especial
-- mínimo de caracteres
-
-Exemplo de senha válida:
-
-Teste@123
+- mínimo de 6 caracteres
 
 ---
+
+## 🧾 Massa de teste utilizada
+
+### Cadastro - Gestor
+Nome: Alefe Gestor  
+Email: gestor + timestamp@gmail.com  
+Senha: Teste@123  
+Perfil: Gestão  
+
+---
+
+### Cadastro - Cliente
+Nome: Cliente Teste  
+Email: cliente + timestamp@gmail.com  
+Senha: Teste@123  
+Perfil: Salão  
+
+---
+
+Observação:
+
+O email é gerado dinamicamente para evitar duplicidade:
+
+teste + System.currentTimeMillis() + @gmail.com
 
 ## 🧰 Tecnologias utilizadas
 
